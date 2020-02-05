@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyzxh.github.io/</id>
     <title>My Freemind</title>
-    <updated>2020-02-05T18:25:59.644Z</updated>
+    <updated>2020-02-05T18:29:45.551Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyzxh.github.io/"/>
     <link rel="self" href="https://lyzxh.github.io/atom.xml"/>
@@ -99,35 +99,25 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://lyzxh.github.io/post/hello-gridea</id>
-        <link href="https://lyzxh.github.io/post/hello-gridea">
+        <title type="html"><![CDATA[闲谈感恩的表达]]></title>
+        <id>https://lyzxh.github.io/post/闲谈感恩的表达</id>
+        <link href="https://lyzxh.github.io/post/闲谈感恩的表达">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2020-01-19T04:59:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>就像说“谢谢”是为了展示自己的礼貌和教养一样，表达感恩也是为了展示自己是一个知恩图报值得交往的人。因为出发点是利己的，所以很多时候我们的表现都十分敷衍，仿佛不屑掩饰或者不知道如何掩饰利己的心一样。平淡而没有声调起伏的“谢谢”，或是有力度却过于浮夸的排比式“感谢xx的xx”，都是例证。</p>
+<p>这话很是难听，却也是事实。破局手段有二，一是<strong>真诚</strong>，二是<strong>技巧</strong>。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>就像说“谢谢”是为了展示自己的礼貌和教养一样，表达感恩也是为了展示自己是一个知恩图报值得交往的人。因为出发点是利己的，所以很多时候我们的表现都十分敷衍，仿佛不屑掩饰或者不知道如何掩饰利己的心一样。平淡而没有声调起伏的“谢谢”，或是有力度却过于浮夸的排比式“感谢xx的xx”，都是例证。</p>
+<p>这话很是难听，却也是事实。破局手段有二，一是<strong>真诚</strong>，二是<strong>技巧</strong>。</p>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<p>有的人温暖如小太阳，感谢和感恩都是来自心底，他们的表达没有多少矫饰，或许磕绊，或许语无伦次，但会让人感受到那颗真心。当然若是加上技巧，感染力自然更上层楼。</p>
+<p>有的人共情能力低，同理心欠缺，他的感谢和感恩往往难断真假。你让他叩问自己，是真的感谢别人吗，还是拘于礼节和教养而已呢？或许他自己都说不清楚。似这样冷心冷肺的人，要让对方真的感知到你的感谢和感恩，是需要技巧的。感恩对方，举实例，列细节，万不可虚头巴脑地堆砌好词，那叫溜须拍马，与感恩差得远呢。对同理心欠缺的人来说，一分真心，九分技巧，亦是很不错的感恩表达了。</p>
+<p>若是一分真心也没有，那便是另一个话题了。都说人生如戏，全靠演技。你一点都不觉得感谢对方是值得的，却还得表现得真心实意，那不就只能演了嘛。这就难了。难点不在背着心感谢别人，难点在感谢的事例。或许你一贯认为对方是傻逼，是烂泥扶不上墙，自己是不屑与之为伍的，所以你很难想起什么能用来感谢的细节。俗话说“屎都能夸出花来”，这种情况下欠缺的便是这“屎里找花”的观察力了。</p>
+<p>这也不容易。不过我仔细想想，倒是有一个小妙招可以试试。比如你要演出感谢一个你心里已经亲封为史上第一大傻逼的同事，要用具体的事例来佐证。你就回忆一下，平常生活中，有没有和你的小伙伴八卦吐槽过他的事儿，然后使出“闭眼瞎吹反着夸”大招，当初是怎么吐槽的，现在就反过来怎么吹。比如：</p>
+<p><em>当初的吐槽：“你看他做的这个ppt，可能小学五年级的学生都比他会配色”</em></p>
+<p><em>闭眼瞎感谢：“其实不是我一个人的功劳，是我公司团队合作的力量。比如我身边这位同事吧，没有他初稿PPT的大胆配色和精心设计给我们带来灵感，根本不可能有现在这个效果的。”</em></p>
+<p>不过要是你连对方做过什么事都不知道，那就不太好操作了。所以，日常生活中还是多观察，默默积累素材。</p>
+<p>感恩是个技术活，得多练，练到深入骨髓，练到条件反射，<strong>或许到那时候，自己也分不清自己的感恩几分真几分假了</strong>。</p>
 ]]></content>
     </entry>
 </feed>
