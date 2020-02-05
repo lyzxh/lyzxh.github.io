@@ -6,7 +6,7 @@
 <title>Time Series Basics | My Freemind</title>
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="Lazy Type">
-<link rel="shortcut icon" href="https://lyzxh.github.io//favicon.ico?v=1580935819149">
+<link rel="shortcut icon" href="https://lyzxh.github.io//favicon.ico?v=1580936707595">
 <link rel="stylesheet" href="https://lyzxh.github.io//styles/main.css">
 
 <link rel="stylesheet" href="/media/css/gemini.css">
@@ -482,13 +482,34 @@ window.addEventListener('load', function() {
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>967<span class="pc-show">字数</span></span>
+      <span>993<span class="pc-show">字数</span></span>
     </span>
   </div>
 </header>
 </div>
               <div class="post-body next-md-body" id="post_body">
-                <h1 id="definition">Definition</h1>
+                <p><ul class="markdownIt-TOC">
+<li><a href="#definition">Definition</a></li>
+<li><a href="#describing-a-stochastic-process">Describing a stochastic process</a>
+<ul>
+<li><a href="#mean">Mean</a></li>
+<li><a href="#autocovariance">Autocovariance</a></li>
+</ul>
+</li>
+<li><a href="#some-classes-of-stochastic-processes">Some classes of stochastic processes</a>
+<ul>
+<li><a href="#stationary-processes">Stationary Processes</a>
+<ul>
+<li><a href="#intuitive-point-of-view">Intuitive Point of View</a></li>
+<li><a href="#mathematical-definition">Mathematical Deﬁnition</a></li>
+</ul>
+</li>
+<li><a href="#purely-random-processes-white-noise">Purely Random Processes (White Noise)</a></li>
+</ul>
+</li>
+</ul>
+</p>
+<h1 id="definition">Definition</h1>
 <p><strong>Stochastic process</strong>: A stochastic process is a collection of random variables <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>{</mo><msub><mi>X</mi><mi>t</mi></msub><msub><mo>}</mo><mrow><mi>t</mi><mo>∈</mo><mi>T</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\lbrace X_t\rbrace_{t \in T}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">}</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">t</span><span class="mrel mtight">∈</span><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.17737em;"><span></span></span></span></span></span></span></span></span></span> indexed by a set <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> , i.e. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>t</mi><mo>∈</mo><mi>T</mi></mrow><annotation encoding="application/x-tex">t \in T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65418em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> defined on a <a href="https://en.wikipedia.org/wiki/Probability_space">probability space</a> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi mathvariant="normal">Ω</mi><mo separator="true">,</mo><mi mathvariant="script">F</mi><mo separator="true">,</mo><mi>P</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">( \Omega, \mathcal {F},P)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">Ω</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mclose">)</span></span></span></span>. (Not necessarily independent)</p>
 <p>If <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> consists of the integers (or a subset), the process is called a <em>Discrete Time Stochastic Process</em>.</p>
 <p>If <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> consists of the real numbers (or a subset), the process is called <em>Continuous Time Stochastic Process</em>.</p>
